@@ -1,0 +1,16 @@
+/*
+section ul li a:link, section ul li a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+section ul li a:hover {
+    color: #444;
+    text-decoration: underline;
+}
+*/
+
+section table td {
+    vertical-align: top;
+}
+
