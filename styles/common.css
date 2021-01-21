@@ -185,6 +185,7 @@ section .image-block {
 
 section figure {
     display: inline-block;
+    font-style: italic;
     text-align: center;
 }
 
