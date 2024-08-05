@@ -189,4 +189,24 @@ section figure {
     text-align: center;
 }
 
+section .table-block {
+}
+
+section table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+section table th {
+    border: 1px solid;
+    margin: 0px;
+    padding: 3px;
+    text-align: left;
+}
+
+section table td {
+    border: 1px solid;
+    margin: 0px;
+    padding: 3px;
+}
 
