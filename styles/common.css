@@ -86,7 +86,9 @@ header #subinfo
 
 header #quals
 {
-    color: #ffca4d;
+    /*color: #ffca4d;*/
+    color: #E9FF80;
+    /*color: #799100;*/
 }
 
 nav
@@ -157,7 +159,8 @@ nav ul a:visited { color: white; }
 nav ul a.selected
 {
     color: #262626;
-    background-color: #ffca4d;
+    /*background-color: #ffca4d;*/
+    background-color: #FFE1AA;
 }
 
 
@@ -170,7 +173,8 @@ nav ul a:focus
 nav ul a:hover
 {
 	color: #262626;
-	background-color: #ff544f;
+	/*background-color: #ff544f;*/
+	background-color: #FF8B80;
 }
 
 nav ul a:active

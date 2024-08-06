@@ -1,8 +1,17 @@
-section .news-box{
-    border: 1px solid #ccc;
+section .news-box {
+    border: 1px solid #004192;
+    border-radius: 8px;
     height: 150px;
     overflow: scroll;
-    padding: 3px;
+    padding: 3px 0px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+section .news-box .date {
+    /*color: #004192;*/
+    color: #910D00;
+    font-weight: bold;
 }
 
 section .news-box table {
@@ -11,5 +20,8 @@ section .news-box table {
 
 section .news-box table td {
     border: 0px;
+    padding: 3px 3px 3px 10px;
 }
+
+
 
