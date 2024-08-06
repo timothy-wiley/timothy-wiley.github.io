@@ -21,7 +21,11 @@ section .news-box table {
 section .news-box table td {
     border: 0px;
     padding: 3px 3px 3px 10px;
+    vertical-align: top;
 }
 
+section .news-box table td.date {
+    width: 90px;
+}
 
 
