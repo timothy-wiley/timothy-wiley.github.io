@@ -1,7 +1,7 @@
 section .news-box {
     border: 1px solid #004192;
     border-radius: 8px;
-    height: 150px;
+    height: 200px;
     overflow: scroll;
     padding: 3px 0px;
 
