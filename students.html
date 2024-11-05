@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Dr Timothy Wiley - Students</title>
+    
+        <link rel="stylesheet" type="text/css" href="styles/common.css" />
+    
+        <link rel="stylesheet" type="text/css" href="styles/publications.css" />
+    
+    
+    <link rel="shortcut icon" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dr Timothy Wiley</h1>
+            <h5 id="quals">PhD, BSc (Computer Science)</h5>
+            <div id="subinfo">Lecturer</div>
+            <div id="subinfo">School of Computing Technologies, STEM College</div>
+            <div id="subinfo">RMIT University</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a class="" href="index.html">Home</a></li>
+            <li><a class="" href="robocup.html">RoboCup</a></li>
+            <li><a class="" href="publications.html">Publications</a></li>
+            <li><a class="" href="software.html">Software</a></li>
+            <li><a class="selected" href="students.html">Students</a></li>
+            <li><a class="" href="essai.html">ESSAI'23-24</a></li>
+            <li><a class="" href="media.html">Media</a></li>
+            <!--li><a class="" href="quicklinks.html">Quick Links</a></li-->
+        </ul>
+    </nav>
+
+    <div id="page">
+
+
+<section>
+   <div class="container">
+   
+   <p>
+      An overview of the students, current and former, whom I have supervised highlighting their projects and completions.
+   </p>
+   
+   <h2>Completions (Masters)</h2>
+
+   <h3>Samuel Arthur Morris (2024)</h3>
+   <div class="citation">
+      <p>
+         <span class="title">Policy Transfer for Deep Reinforcement Agents Using Game Entity Substitution - Applied to Infinite Mario</span> <br />
+         School of Computing Technologies, STEM College, RMIT University, Melbourne, Australia. <br />
+         <span class="supervisor">Supervisors: Dr. Timothy Wiley, Dr. Michael Dann.</span>
+      </p>
+      <p>
+         Abstract <br />
+         Deep Reinforcement Learning (DRL) agents have shown impressive ability in
+         mastering computer games, but notoriously take a long time to learn. As an
+         agent progresses through a game, it will often encounter new states containing
+         previously unencountered game entities, e.g., new enemies. In such situations,
+         DRL agents typically struggle to generalise their prior knowledge to the new
+         entities, owing to differences in state and object representations. In particular,
+         even when new entities <em>behave</em> similarly to previously encountered ones, if they
+         <em>appear</em> to be different then DRL agents can take a long time to adapt. <br />
+         Policy transfer learning offers a promising approach for allowing DRL
+         agents to adapt their knowledge; however, establishing the connection between
+         the newly presented states (the target task) and previously encountered ones
+         (the source task) requires guidance from a domain expert. Guidance in the
+         form of externally constructed mapping of state-action pairings, must be continually
+         maintained in response to new game entity encounters.  <br />
+         This thesis proposes an alternative approach, where policy transfer is accomplished
+         by leveraging an intermediate state transformation, removing the
+         need for manual mapping. Each entity is mapped to a unique entity ID, and
+         when a new game entity is encountered, a "substitution agent" strives to learn
+         a mapping between the new entity ID and a previously encountered one. For
+         example, if the new entity is a type of enemy, the substitution agent will ideally
+         learn to map the new ID to a previously encountered enemy’s ID, rather
+         than, say, the ID of a powerup item. Experimental results show that this
+         approach is effective, allowing for rapid improvement of end-of-episode scores
+         when encountering new entity representations in the game, <em>Infinite Mario</em>.
+      </p>
+   </div>
+   
+   <!-- <h2>Completions (Honours)</h2> -->
+
+   
+   </div>
+</section>
+   
+    </div>
+
+    <footer>
+        <div class="container">
+        <time datestamp="2024-11">November 2024</time> 
+        
+        </div>
+    </footer>
+</body>
+</html>
+
