@@ -2,6 +2,28 @@
     font-style: italic;
 }
 
+.thesis h3 {
+    /* color: #004192; */
+    color: #910D00;
+}
+
+.thesis .supervisor {
+    font-style: italic;
+}
+
+.thesis .abstract .abstract-title {
+    /* font-weight: bold; */
+    font-style: italic;
+}
+
+.thesis .abstract p:not(:last-child) {
+    margin-bottom: 0.3em;
+}
+
+.thesis .abstract p:not(:first-child) {
+    text-indent: 1.0em;
+}
+
 /*
 section li a:link, section li a:visited {
     color: #000;
