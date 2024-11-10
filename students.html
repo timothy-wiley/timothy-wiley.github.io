@@ -39,159 +39,286 @@
 
 
 <section>
-   <div class="container">
+<div class="container">
    
    <p>
       An overview of the students, current and former, whom I have supervised highlighting their projects and completions.
       <ul id="toc">
-         <li>
-            <a href="#completionsmasters">Completions (Masters)</a>
-            <ul>
-               <li><a href="#morris">Samuel Arthur Morris</a></li>
-               <li><a href="#omodaratan">Busuyi Ojo Omodaratan</a></li>
-            </ul>
-         </li>
-         <li>
-            <a href="#completionshonours">Completions (Honours)</a>
-            <ul>
-               <li><a href="#rayner">Nicolas Rayner</a></li>
-            </ul>
-         </li>
+         
+            <li>
+               <a href="#competionsmasters">Completions (Masters)</a>
+               
+               <ul>
+                  <li><a href="#morris">Samuel Arthur Morris</a></li>
+               </ul>
+            
+               <ul>
+                  <li><a href="#omodaratan">Busuyi Ojo Omodaratan</a></li>
+               </ul>
+            
+            </li>
+         
+            <li>
+               <a href="#competionshonours">Completions (Honours)</a>
+               
+               <ul>
+                  <li><a href="#rayner">Nicolas Rayner</a></li>
+               </ul>
+            
+            </li>
+         
      </ul>
      <hr />
    </p>
    
-   <a id="completionsmasters" aria-label="Completions (Masters)"></a>
-   <h2 >Completions (Masters)</h2>
+   
+      <a id="competionsmasters" aria-label="Completions (Masters)"></a>
+      <h2 >Completions (Masters)</h2>
 
-   <div class="thesis">
-      <a id="morris" aria-label="Samuel Arthur Morris"></a>
-      <h3>Samuel Arthur Morris</h3>
-      <p>
-         <span class="title">Policy Transfer for Deep Reinforcement Agents Using Game Entity Substitution - Applied to Infinite Mario</span> <br />
-         School of Computing Technologies, STEM College, RMIT University, Melbourne, Australia. <br />
-         <span class="supervisor">Supervisors: Dr. Timothy Wiley, Dr. Michael Dann.</span> <br />
-         November 2024.
-      </p>
-      <div class="abstract">
-         <p class="abstract-title">Abstract</p>
-         <p>
-            Deep Reinforcement Learning (DRL) agents have shown impressive ability in
-            mastering computer games, but notoriously take a long time to learn. As an
-            agent progresses through a game, it will often encounter new states containing
-            previously unencountered game entities, e.g., new enemies. In such situations,
-            DRL agents typically struggle to generalise their prior knowledge to the new
-            entities, owing to differences in state and object representations. In particular,
-            even when new entities behave similarly to previously encountered ones, if they
-            appear to be different then DRL agents can take a long time to adapt. 
-         </p>
-         <p>
-            Policy transfer learning offers a promising approach for allowing DRL
-            agents to adapt their knowledge; however, establishing the connection between
-            the newly presented states (the target task) and previously encountered ones
-            (the source task) requires guidance from a domain expert. Guidance in the
-            form of externally constructed mapping of state-action pairings, must be continually
-            maintained in response to new game entity encounters.
-         </p>
-         <p>
-            This thesis proposes an alternative approach, where policy transfer is accomplished
-            by leveraging an intermediate state transformation, removing the
-            need for manual mapping. Each entity is mapped to a unique entity ID, and
-            when a new game entity is encountered, a "substitution agent" strives to learn
-            a mapping between the new entity ID and a previously encountered one. For
-            example, if the new entity is a type of enemy, the substitution agent will ideally
-            learn to map the new ID to a previously encountered enemy’s ID, rather
-            than, say, the ID of a powerup item. Experimental results show that this
-            approach is effective, allowing for rapid improvement of end-of-episode scores
-            when encountering new entity representations in the game, Infinite Mario.
-         </p>
-      </div>
-   </div>
-   <div class="thesis">
-      <a id="omodaratan" aria-label="Busuyi Ojo Omodaratan"></a>
-      <h3>Busuyi Ojo Omodaratan</h3>
-      <p>
-         <span class="title">Simultaneous Road Objects and Lane Detection Models in Autonomous Vehicles</span> <br />
-         School of Engineering, STEM College, RMIT University, Melbourne, Australia. <br />
-         <span class="supervisor">Supervisors: Dr. Hamid Hkayyam, Dr. Timothy Wiley.</span> <br />
-         June 2024.
-      </p>
-      <div class="abstract">
-         <p class="abstract-title">Abstract</p>
-         <p>
-            Poor road boundary lanes and detections of road objects have been identified as some of the
-            serious causes of road accidents, in both conventional and autonomous driving. Therefore, it is
-            critical to develop models that could help autonomous vehicles' perception systems while
-            accurately identifying and locating road objects from images and video frames. However, the
-            existing models face a series of challenges due to the highly complex nature of the road traffic
-            scene and the influence of various road objects on the manoeuvring. Most of the existing
-            models cannot simultaneously detect all the major road objects, with some, either detecting
-            lanes or detecting some of the road objects. To address these gaps, the combined road objects
-            and lane detection model was developed using the You Only Look Once (YOLO) algorithm.
-            As a first step, a model was developed to detect road objects only and the results were compared
-            with existing studies. Next, another model was developed to detect road lanes based onYOLOv8 capability. 
-            Finally, an improved YOLOv8 model was developed to simultaneously
-            detect road objects and lanes. To achieve this, the YOLOv8 model was tuned and optimised
-            using various optimization approaches considering several hyperparameters such as activation
-            functions and regularisation methods. Further, the effect of augmentation was investigated
-            using three techniques; cut-out, rotation and rotation with noise. Also, the effect of the data
-            stream on the performance of the model was investigated based on the obtained
-            hyperparameter. The relevant performance metrics such as precision, F1, and recall were
-            deployed. In addition, mean average precision calculated at an intersection over union (IoU)
-            threshold of 0.5 and 0.95 was reported to assess the model's detection capabilities. The results
-            from this study were further compared with some existing studies such as Feature PyramidNetworks, 
-            Task-aligned One-stage Object Detection, Dynamic R-CNN Probabilistic AnchorAssignment with IoU Prediction, 
-            Sparse R-CNN and CenterNet to demonstrate the
-            contribution of the model. Further, the performance of the models based on different dataset
-            (Curated data, COCO, and KITTI) showed that curated data outperformed others across all the
-            performance metrics. Notably, curated data has the most promising results with precision,
-            recall and F1 score of 0.68, 0.61, and 0.64, respectively. The success of the curated dataset
-            highlights the significance of tailoring datasets to the specific nuances of the targeted
-            application domain. Finally, the conclusion and recommendations were made based on the
-            findings from the study.
-         </p>
-      </div>
-   </div>
+      
+         <div class="thesis">
+            <a id="morris" aria-label="Samuel Arthur Morris"></a>
+            <h3>Samuel Arthur Morris</h3>
+            <p>
+               <span class="title">Policy Transfer for Deep Reinforcement Agents Using Game Entity Substitution - Applied to Infinite Mario.</span> <br />
+               School of Computing Technologies, STEM College, RMIT University, Melbourne, Australia. <br />
+               <span class="supervisor">Supervisors: 
+                  
+                     Dr. Timothy Wiley,
+                  
+                     Dr. Michael Dann. 
+                  
+                  </span> <br />
+               November 2024.
+            </p>
+            <div class="abstract">
+               <p class="abstract-title">Abstract</p>
+               
+                  <p>
+                     
+                        Deep Reinforcement Learning (DRL) agents have shown impressive ability in
+                     
+                        mastering computer games, but notoriously take a long time to learn. As an
+                     
+                        agent progresses through a game, it will often encounter new states containing
+                     
+                        previously unencountered game entities, e.g., new enemies. In such situations,
+                     
+                        DRL agents typically struggle to generalise their prior knowledge to the new
+                     
+                        entities, owing to differences in state and object representations. In particular,
+                     
+                        even when new entities behave similarly to previously encountered ones, if they
+                     
+                        appear to be different then DRL agents can take a long time to adapt.
+                     
+                  </p>
+               
+                  <p>
+                     
+                        Policy transfer learning offers a promising approach for allowing DRL
+                     
+                        agents to adapt their knowledge; however, establishing the connection between
+                     
+                        the newly presented states (the target task) and previously encountered ones
+                     
+                        (the source task) requires guidance from a domain expert. Guidance in the
+                     
+                        form of externally constructed mapping of state-action pairings, must be continually
+                     
+                        maintained in response to new game entity encounters.
+                     
+                  </p>
+               
+                  <p>
+                     
+                        This thesis proposes an alternative approach, where policy transfer is accomplished
+                     
+                        by leveraging an intermediate state transformation, removing the
+                     
+                        need for manual mapping. Each entity is mapped to a unique entity ID, and
+                     
+                        when a new game entity is encountered, a "substitution agent" strives to learn
+                     
+                        a mapping between the new entity ID and a previously encountered one. For
+                     
+                        example, if the new entity is a type of enemy, the substitution agent will ideally
+                     
+                        learn to map the new ID to a previously encountered enemy's ID, rather
+                     
+                        than, say, the ID of a powerup item. Experimental results show that this
+                     
+                        approach is effective, allowing for rapid improvement of end-of-episode scores
+                     
+                        when encountering new entity representations in the game, Infinite Mario.
+                     
+                  </p>
+               
+            </div>
+         </div>
+      
+         <div class="thesis">
+            <a id="omodaratan" aria-label="Busuyi Ojo Omodaratan"></a>
+            <h3>Busuyi Ojo Omodaratan</h3>
+            <p>
+               <span class="title">Simultaneous Road Objects and Lane Detection Models in Autonomous Vehicles.</span> <br />
+               School of Engineering, STEM College, RMIT University, Melbourne, Australia. <br />
+               <span class="supervisor">Supervisors: 
+                  
+                     Dr. Hamid Hkayyam,
+                  
+                     Dr. Timothy Wiley. 
+                  
+                  </span> <br />
+               June 2024.
+            </p>
+            <div class="abstract">
+               <p class="abstract-title">Abstract</p>
+               
+                  <p>
+                     
+                        Poor road boundary lanes and detections of road objects have been identified as some of the
+                     
+                        serious causes of road accidents, in both conventional and autonomous driving. Therefore, it is
+                     
+                        critical to develop models that could help autonomous vehicles' perception systems while
+                     
+                        accurately identifying and locating road objects from images and video frames. However, the
+                     
+                        existing models face a series of challenges due to the highly complex nature of the road traffic
+                     
+                        scene and the influence of various road objects on the manoeuvring. Most of the existing
+                     
+                        models cannot simultaneously detect all the major road objects, with some, either detecting
+                     
+                        lanes or detecting some of the road objects. To address these gaps, the combined road objects
+                     
+                        and lane detection model was developed using the You Only Look Once (YOLO) algorithm.
+                     
+                        As a first step, a model was developed to detect road objects only and the results were compared
+                     
+                        with existing studies. Next, another model was developed to detect road lanes based on YOLOv8 capability.
+                     
+                        Finally, an improved YOLOv8 model was developed to simultaneously
+                     
+                        detect road objects and lanes. To achieve this, the YOLOv8 model was tuned and optimised
+                     
+                        using various optimization approaches considering several hyperparameters such as activation
+                     
+                        functions and regularisation methods. Further, the effect of augmentation was investigated
+                     
+                        using three techniques; cut-out, rotation and rotation with noise. Also, the effect of the data
+                     
+                        stream on the performance of the model was investigated based on the obtained
+                     
+                        hyperparameter. The relevant performance metrics such as precision, F1, and recall were
+                     
+                        deployed. In addition, mean average precision calculated at an intersection over union (IoU)
+                     
+                        threshold of 0.5 and 0.95 was reported to assess the model's detection capabilities. The results
+                     
+                        from this study were further compared with some existing studies such as Feature Pyramid Networks,
+                     
+                        Task-aligned One-stage Object Detection, Dynamic R-CNN Probabilistic Anchor Assignment with IoU Prediction,
+                     
+                        Sparse R-CNN and CenterNet to demonstrate the
+                     
+                        contribution of the model. Further, the performance of the models based on different dataset
+                     
+                        (Curated data, COCO, and KITTI) showed that curated data outperformed others across all the
+                     
+                        performance metrics. Notably, curated data has the most promising results with precision,
+                     
+                        recall and F1 score of 0.68, 0.61, and 0.64, respectively. The success of the curated dataset
+                     
+                        highlights the significance of tailoring datasets to the specific nuances of the targeted
+                     
+                        application domain. Finally, the conclusion and recommendations were made based on the
+                     
+                        findings from the study.
+                     
+                  </p>
+               
+            </div>
+         </div>
+      
+      
+      <hr />
    
-   <a id="completionshonours" aria-label="Completions (Honours)"></a>
-   <h2>Completions (Honours)</h2>
-   <div class="thesis">
-      <a id="rayner" aria-label="Nicolas Rayner"></a>
-      <h3>Nicolas Rayner</h3>
-      <p>
-         <span class="title">Development of a DigitalTwin for Building Flows</span> <br />
-         School of Computing Technologies, STEM College, RMIT University, Melbourne, Australia. <br />
-         <span class="supervisor">Supervisors: Dr. Abdulghani Mohamed, Dr. Timothy Wiley.</span> <br />
-         November 2023.
-      </p>
-      <div class="abstract">
-         <p class="abstract-title">Abstract</p>
-         <p>
-            The main objective and outcome of the research is the development of a functioning digital twin for the prediction of the flow fields
-            around a building exposed to a variety of wind conditions in urban environments. 
-            Unmanned aerial vehicles, also referred to as UAVs, air taxis, 
-            helicopters and a range of other aerial vehicles provides a promising platform for this technology due to an ever-expanding 
-            interest in operating within these obstacle dense and unpredictable environments. 
-            Allowing them to manoeuvre accordingly in reaction to onboard sensors comparing simulated data of the buildings flow field, 
-            aiding in the prediction of conditions along its flight path.
-            Ability to predict wind conditions would be beneficial for flight path mapping with current studies highlighting the correlation 
-            between turbulent flow experienced by aircraft in urban environments and catastrophic crashes. 
-            Further potential is seen with the prediction of the shear layers behaviour on top of the building as these changes 
-            in velocity and induced turbulent regions have potential for sudden disastrous effects on aircrafts behaviour during taking off, 
-            landing and operation within this region.
-            In order to develop a digital twin for the stated application, 
-            research on the behaviour of wind flow fields on isolated buildings will be conducted.
-            Known calculations and quantitative values of estimating the position of the points of interest such as stagnation of the flow on the front of the building, 
-            separation on top of the build and wake sizes will need to be investigated to accurately place sensor points in simulations to train, 
-            test, and apply the predictive abilities of the digital twin. 
-            The proposed area of research can be carried out through the use of Computer Aided Design (CAD), 
-            Computational Fluid Dynamics (CFD), Machine Learning (ML), High Power Computational (HPC) devices, 
-            powerful computational servers, and practical validation testing from recorded data on scale or full-size models.
-         </p>
-      </div>
-   </div>
+      <a id="competionshonours" aria-label="Completions (Honours)"></a>
+      <h2 >Completions (Honours)</h2>
+
+      
+         <div class="thesis">
+            <a id="rayner" aria-label="Nicolas Rayner"></a>
+            <h3>Nicolas Rayner</h3>
+            <p>
+               <span class="title">Development of a Digital Twin for Building Flows.</span> <br />
+               School of Engineering, STEM College, RMIT University, Melbourne, Australia. <br />
+               <span class="supervisor">Supervisors: 
+                  
+                     Dr. Abdulghani Mohamed,
+                  
+                     Dr. Timothy Wiley. 
+                  
+                  </span> <br />
+               November 2023.
+            </p>
+            <div class="abstract">
+               <p class="abstract-title">Abstract</p>
+               
+                  <p>
+                     
+                        The main objective and outcome of the research is the development of a functioning digital twin for the prediction of the flow fields
+                     
+                        around a building exposed to a variety of wind conditions in urban environments.
+                     
+                        Unmanned aerial vehicles, also referred to as UAVs, air taxis,
+                     
+                        helicopters and a range of other aerial vehicles provides a promising platform for this technology due to an ever-expanding
+                     
+                        interest in operating within these obstacle dense and unpredictable environments.
+                     
+                        Allowing them to manoeuvre accordingly in reaction to onboard sensors comparing simulated data of the buildings flow field,
+                     
+                        aiding in the prediction of conditions along its flight path.
+                     
+                        Ability to predict wind conditions would be beneficial for flight path mapping with current studies highlighting the correlation
+                     
+                        between turbulent flow experienced by aircraft in urban environments and catastrophic crashes.
+                     
+                        Further potential is seen with the prediction of the shear layers behaviour on top of the building as these changes
+                     
+                        in velocity and induced turbulent regions have potential for sudden disastrous effects on aircrafts behaviour during taking off,
+                     
+                        landing and operation within this region.
+                     
+                        In order to develop a digital twin for the stated application,
+                     
+                        research on the behaviour of wind flow fields on isolated buildings will be conducted.
+                     
+                        Known calculations and quantitative values of estimating the position of the points of interest such as stagnation of the flow on the front of the building,
+                     
+                        separation on top of the build and wake sizes will need to be investigated to accurately place sensor points in simulations to train,
+                     
+                        test, and apply the predictive abilities of the digital twin.
+                     
+                        The proposed area of research can be carried out through the use of Computer Aided Design (CAD),
+                     
+                        Computational Fluid Dynamics (CFD), Machine Learning (ML), High Power Computational (HPC) devices,
+                     
+                        powerful computational servers, and practical validation testing from recorded data on scale or full-size models.
+                     
+                  </p>
+               
+            </div>
+         </div>
+      
+      
+      
    
-   </div>
+ 
+</div>
 </section>
    
     </div>
