@@ -183,6 +183,10 @@ nav ul a:active
 	background-color: #ff544f;
 }
 
+section .container .highlight {
+	color: #910D00;
+}
+
 section .image-block {
     text-align: center;
 }
