@@ -1,3 +1,8 @@
+aside img#headshot {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 section .news-box {
     border: 1px solid #004192;
     border-radius: 8px;
